@@ -15,3 +15,31 @@
   height: 45px;
 }
 
+
+#wrapper .tagView .el-tabs--border-card{
+  // box-shadow: none!important;
+  border: none;
+}
+.tagView {
+  .el-tabs__content{
+    display: none;
+  }
+  .el-tabs__header{
+    border-bottom: none;
+  }
+}
+#wrapper .centerBar .el-form-item__label{
+  line-height: normal;
+}
+#wrapper .centerBar .el-form-item--medium .el-form-item__label{
+  line-height: normal;
+}
+#wrapper .el-select{
+  width: 100%;
+}
+// #wrapper{
+//   .el-button--primary{
+//     background-color: #74bdff;
+//     border-color: #74bdff
+//   }
+// }

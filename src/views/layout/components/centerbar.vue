@@ -1,13 +1,13 @@
 <template>
   <div class="center" ref="centerid">
-    <el-button type="primary" @click="addTab">anniu</el-button>
+    <!-- <el-button type="primary" @click="addTab">anniu</el-button> -->
     <div class="tagView">
       <el-tabs v-model="editableTabsValue2" type="border-card" closable @tab-remove="removeTab">
         <el-tab-pane v-for="(item, index) in editableTabs2" :key="index" :label="item.title" :name="item.name">
         </el-tab-pane>
       </el-tabs>
     </div>
-    <div>
+    <div class="centerBar">
       <transition name="move" mode="out-in">
         <!-- <keep-alive> -->
         <router-view></router-view>

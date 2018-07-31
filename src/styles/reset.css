@@ -112,3 +112,17 @@ body {
 .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
   opacity: 0;
 }
+
+/* 设置按钮色 */
+.color81c79f{
+  background-color:#81c79f;
+  border-color:#81c79f;
+}
+.color81c79f:hover{
+  background-color:#A4D6B9;
+  border-color:#A4D6B9;
+}
+/* 设置mini版按钮 */
+.miniBtn{
+  padding: 4px 12px;
+}
